@@ -14,16 +14,16 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
 
       home: LoginPage(),
-      // // halaman pertama
-      // initialRoute: '/login',
+      // halaman pertama
+      initialRoute: '/login',
 
-      // // rooting
-      // routes: {
-      //   '/login': (context) =>  LoginPage(),
-      //   '/home': (context) =>  HomePage(),
-      //   '/goal': (context) =>  GoalFormPage(),
-      //   '/reflection': (context) =>  ReflectionPage(),
-      // },
+      // rooting
+      routes: {
+        '/login': (context) =>  LoginPage(),
+        '/home': (context) =>  HomePage(),
+        '/goal': (context) =>  GoalFormPage(),
+        '/reflection': (context) =>  ReflectionPage(),
+      },
     );
   }
 }
