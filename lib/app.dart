@@ -13,16 +13,17 @@ class MyApp extends StatelessWidget {
       title: 'Pathway',
       debugShowCheckedModeBanner: false,
 
-      // halaman pertama
-      initialRoute: '/login',
+      home: LoginPage(),
+      // // halaman pertama
+      // initialRoute: '/login',
 
-      // rooting
-      routes: {
-        '/login': (context) =>  LoginPage(),
-        '/home': (context) =>  HomePage(),
-        '/goal': (context) =>  GoalFormPage(),
-        '/reflection': (context) =>  ReflectionPage(),
-      },
+      // // rooting
+      // routes: {
+      //   '/login': (context) =>  LoginPage(),
+      //   '/home': (context) =>  HomePage(),
+      //   '/goal': (context) =>  GoalFormPage(),
+      //   '/reflection': (context) =>  ReflectionPage(),
+      // },
     );
   }
 }
