@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class Sphere extends StatelessWidget {
   final double diameter;
   final bool dark;
-  const Sphere({super.key, required this.diameter, required this.dark});
+  const Sphere({super.key, required this.diameter, this.dark = false});
 
   @override
   Widget build(BuildContext context) {
