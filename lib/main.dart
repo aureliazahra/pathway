@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:pathway/app.dart';
 import 'package:pathway/core/theme.dart';
 import 'package:pathway/features/auth/login_page.dart';
+import 'package:pathway/features/auth/signup_page.dart';
+import 'package:pathway/features/auth/welcome_screen.dart';
 
 void main() => runApp(const MyApp());
 
