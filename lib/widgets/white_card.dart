@@ -24,6 +24,7 @@ class WhiteCard extends StatelessWidget {
             )
           ]
       ),
+      child: child,
     );
   }
 }
